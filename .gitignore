@@ -4,3 +4,11 @@ runs/
 *.html
 *.png
 *.out
+data/game_file_20.pt
+data/game_file_dev.pt
+new_game_files/game_file_dev.pt
+new_game_files/new_game_file_with_high_similarity.pt
+data/new_game_file_with_high_similarity.pt
+gpt2_coco/checkpoint-500/optimizer.pt
+gpt2_coco/checkpoint-500/pytorch_model.bin
+gpt2_coco/pytorch_model.bin

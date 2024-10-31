@@ -48,8 +48,11 @@ class Fluency(object):
             if not Path(cachedir).exists():
                 Path(cachedir).mkdir()
 
-            train = load_dataset("wikitext", "wikitext-2-raw-v1",
-                                 split="train")
+            # train = load_dataset("wikitext", "wikitext-2-raw-v1",
+            #                      split="train")
+            
+            train = load_dataset("parquet", data_files="./data/wikitext-2-raw-v1/train-00000-of-00001.parquet", split="train")
+            
             encodings = self.tokenizer("\n\n".join(train["text"]),
                                        return_tensors="pt")
             freq = defaultdict(float)

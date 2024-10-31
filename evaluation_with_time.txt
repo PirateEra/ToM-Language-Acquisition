@@ -1,0 +1,654 @@
+
+        Naive sampling with 5 samples of max length 10
+        Analysis of 100 Games:
+
+        Accuracy       : 0.89
+        Entropy        : 0.442725777849555
+        Unigram Count  : 0.4509890655603927
+        Bigram Count   : 0.5837694535092437
+        Trigram Count  : 0.5689532350488108
+        Runtime in seconds: 3.6844048500061035
+        
+
+
+        
+        Naive sampling with 10 samples of max length 10
+        Analysis of 100 Games:
+
+        Accuracy       : 0.94
+        Entropy        : 0.4308910921216011
+        Unigram Count  : 0.31880731241049615
+        Bigram Count   : 0.4613146520342927
+        Trigram Count  : 0.4768893553021175
+        Runtime in seconds: 3.7828049659729004
+        
+
+
+        
+        Naive sampling with 25 samples of max length 10
+        Analysis of 100 Games:
+
+        Accuracy       : 0.93
+        Entropy        : 0.4745965477079153
+        Unigram Count  : 0.19047280167471103
+        Bigram Count   : 0.31439887651814724
+        Trigram Count  : 0.3484153051995207
+        Runtime in seconds: 4.203299045562744
+        
+
+
+        
+        Naive sampling with 50 samples of max length 10
+        Analysis of 100 Games:
+
+        Accuracy       : 0.97
+        Entropy        : 0.4811140545457602
+        Unigram Count  : 0.1267128571532088
+        Bigram Count   : 0.2385573268465404
+        Trigram Count  : 0.2788651379144393
+        Runtime in seconds: 5.308655738830566
+        
+
+
+        
+        Naive sampling with 100 samples of max length 10
+        Analysis of 100 Games:
+
+        Accuracy       : 0.93
+        Entropy        : 0.42758465312421323
+        Unigram Count  : 0.08186949084865847
+        Bigram Count   : 0.17188933259799424
+        Trigram Count  : 0.2125059981032198
+        Runtime in seconds: 6.411574840545654
+        
+
+
+        
+        Beamsearch sampling of max length 10 with beamsize: 5
+
+        Accuracy       : 0.88
+        Entropy        : 0.8028709538280964
+        Unigram Count  : 0.40559077603984656
+        Bigram Count   : 0.47432267416184387
+        Trigram Count  : 0.4512807638602358
+        Runtime in seconds: 10.55365514755249
+        
+
+
+        
+        Beamsearch sampling of max length 10 with beamsize: 10
+
+        Accuracy       : 0.88
+        Entropy        : 0.9262352742254734
+        Unigram Count  : 0.3134090305748207
+        Bigram Count   : 0.4032161725651396
+        Trigram Count  : 0.3972569341524532
+        Runtime in seconds: 29.553173542022705
+        
+
+
+        
+        Beamsearch sampling of max length 10 with beamsize: 25
+
+        Accuracy       : 0.88
+        Entropy        : 1.1613690911233425
+        Unigram Count  : 0.22686783182946862
+        Bigram Count   : 0.3324144402503709
+        Trigram Count  : 0.34063187468451905
+        Runtime in seconds: 121.97958993911743
+        
+
+
+        
+        Beamsearch sampling of max length 10 with beamsize: 50
+
+        Accuracy       : 0.9
+        Entropy        : 1.2071724125742913
+        Unigram Count  : 0.16339211050345143
+        Bigram Count   : 0.2810309196819761
+        Trigram Count  : 0.29600382999167235
+        Runtime in seconds: 413.8436677455902
+        
+
+
+        
+        Beamsearch sampling of max length 10 with beamsize: 100
+
+        Accuracy       : 0.87
+        Entropy        : 1.2824100956320763
+        Unigram Count  : 0.11214782690795762
+        Bigram Count   : 0.2436267590057375
+        Trigram Count  : 0.2656557823957517
+        Runtime in seconds: 1393.176998615265
+        
+
+
+        
+        Diverse beam search sampling of max length 10 with beamsize 5
+        G: 5
+        diverseness: 0.2
+
+        Analysis of 100 Games:
+
+        Accuracy       : 0.88
+        Entropy        : 0.8373986701667309
+        Unigram Count  : 0.3298847149695793
+        Bigram Count   : 0.3865082722512321
+        Trigram Count  : 0.3680689197193248
+        Runtime in seconds: 34.11073398590088
+        
+
+
+        
+        Diverse beam search sampling of max length 10 with beamsize 10
+        G: 10
+        diverseness: 0.2
+
+        Analysis of 100 Games:
+
+        Accuracy       : 0.93
+        Entropy        : 1.046582713574171
+        Unigram Count  : 0.27810315561857085
+        Bigram Count   : 0.35619862778131256
+        Trigram Count  : 0.35323036781838885
+        Runtime in seconds: 197.48490405082703
+        
+
+
+        
+        Diverse beam search sampling of max length 10 with beamsize 25
+        G: 25
+        diverseness: 0.2
+
+        Analysis of 100 Games:
+
+        Accuracy       : 0.93
+        Entropy        : 1.2263563212752342
+        Unigram Count  : 0.19697342315319039
+        Bigram Count   : 0.29086116606029067
+        Trigram Count  : 0.30030696010340097
+        Runtime in seconds: 2375.9975566864014
+        
+
+
+        
+        Diverse beam search sampling of max length 10 with beamsize 50
+        G: 50
+        diverseness: 0.2
+
+        Analysis of 100 Games:
+
+        Accuracy       : 0.93
+        Entropy        : 1.3350850176811218
+        Unigram Count  : 0.15015243750177587
+        Bigram Count   : 0.26525767466716593
+        Trigram Count  : 0.2848333408686719
+        Runtime in seconds: 18377.51442503929
+        
+
+
+        
+        Diverse beam search sampling of max length 10 with beamsize 6
+        G: 2
+        diverseness: 0.2
+
+        Analysis of 100 Games:
+
+        Accuracy       : 0.89
+        Entropy        : 0.8959155659005046
+        Unigram Count  : 0.3564209427395875
+        Bigram Count   : 0.4349014950964156
+        Trigram Count  : 0.4176477480458567
+        Runtime in seconds: 22.422112464904785
+        
+
+
+        
+        Diverse beam search sampling of max length 10 with beamsize 10
+        G: 2
+        diverseness: 0.2
+
+        Analysis of 100 Games:
+
+        Accuracy       : 0.88
+        Entropy        : 0.995254924558103
+        Unigram Count  : 0.29765172484868285
+        Bigram Count   : 0.3815306895693201
+        Trigram Count  : 0.3777765584579776
+        Runtime in seconds: 49.24681878089905
+        
+
+
+        
+        Diverse beam search sampling of max length 10 with beamsize 26
+        G: 2
+        diverseness: 0.2
+
+        Analysis of 100 Games:
+
+        Accuracy       : 0.85
+        Entropy        : 1.0860415505990386
+        Unigram Count  : 0.21903059624591692
+        Bigram Count   : 0.33032350383868464
+        Trigram Count  : 0.3412261087376981
+        Runtime in seconds: 237.53587746620178
+        
+
+
+        
+        Diverse beam search sampling of max length 10 with beamsize 50
+        G: 2
+        diverseness: 0.2
+
+        Analysis of 100 Games:
+
+        Accuracy       : 0.88
+        Entropy        : 1.1949996412917971
+        Unigram Count  : 0.16448577262907013
+        Bigram Count   : 0.29192838474810295
+        Trigram Count  : 0.3104795767767971
+        Runtime in seconds: 790.2365522384644
+        
+
+
+        
+        Diverse beam search sampling of max length 10 with beamsize 5
+        G: 5
+        diverseness: 0.2
+
+        Analysis of 100 Games:
+
+        Accuracy       : 0.88
+        Entropy        : 0.8373986701667309
+        Unigram Count  : 0.3298847149695793
+        Bigram Count   : 0.3865082722512321
+        Trigram Count  : 0.3680689197193248
+        Runtime in seconds: 37.054078102111816
+        
+
+
+        
+        Diverse beam search sampling of max length 10 with beamsize 10
+        G: 5
+        diverseness: 0.2
+
+        Analysis of 100 Games:
+
+        Accuracy       : 0.87
+        Entropy        : 1.0421424862742423
+        Unigram Count  : 0.2904924887490916
+        Bigram Count   : 0.36913320900197344
+        Trigram Count  : 0.3616851922583295
+        Runtime in seconds: 98.82017183303833
+        
+
+
+        
+        Diverse beam search sampling of max length 10 with beamsize 25
+        G: 5
+        diverseness: 0.2
+
+        Analysis of 100 Games:
+
+        Accuracy       : 0.89
+        Entropy        : 1.1967216318845748
+        Unigram Count  : 0.2263256346865927
+        Bigram Count   : 0.3396452194456343
+        Trigram Count  : 0.349452758430264
+        Runtime in seconds: 433.4373927116394
+        
+
+
+        
+        Diverse beam search sampling of max length 10 with beamsize 5
+        G: 5
+        diverseness: 0.2
+
+        Analysis of 100 Games:
+
+        Accuracy       : 0.88
+        Entropy        : 0.8373986701667309
+        Unigram Count  : 0.3298847149695793
+        Bigram Count   : 0.3865082722512321
+        Trigram Count  : 0.3680689197193248
+        Runtime in seconds: 34.87590432167053
+        
+
+
+        
+        Diverse beam search sampling of max length 10 with beamsize 10
+        G: 5
+        diverseness: 0.2
+
+        Analysis of 100 Games:
+
+        Accuracy       : 0.87
+        Entropy        : 1.0421424862742423
+        Unigram Count  : 0.2904924887490916
+        Bigram Count   : 0.36913320900197344
+        Trigram Count  : 0.3616851922583295
+        Runtime in seconds: 97.15687370300293
+        
+
+
+        
+        Diverse beam search sampling of max length 10 with beamsize 25
+        G: 5
+        diverseness: 0.2
+
+        Analysis of 100 Games:
+
+        Accuracy       : 0.89
+        Entropy        : 1.1967216318845748
+        Unigram Count  : 0.2263256346865927
+        Bigram Count   : 0.3396452194456343
+        Trigram Count  : 0.349452758430264
+        Runtime in seconds: 375.82349944114685
+        
+
+
+        
+        Diverse beam search sampling of max length 10 with beamsize 5
+        G: 5
+        diverseness: 0.8
+
+        Analysis of 100 Games:
+
+        Accuracy       : 0.89
+        Entropy        : 0.6046615026891231
+        Unigram Count  : 0.2252045307999638
+        Bigram Count   : 0.24623290424072294
+        Trigram Count  : 0.2319931017363255
+        Runtime in seconds: 36.71486830711365
+        
+
+
+        
+        Diverse beam search sampling of max length 10 with beamsize 10
+        G: 10
+        diverseness: 0.8
+
+        Analysis of 100 Games:
+
+        Accuracy       : 0.87
+        Entropy        : 0.714426136314869
+        Unigram Count  : 0.1483758069157461
+        Bigram Count   : 0.172986774809102
+        Trigram Count  : 0.16771574966560937
+        Runtime in seconds: 194.71843552589417
+        
+
+
+        
+        Diverse beam search sampling of max length 10 with beamsize 25
+        G: 25
+        diverseness: 0.8
+
+        Analysis of 100 Games:
+
+        Accuracy       : 0.87
+        Entropy        : 0.8710866753757
+        Unigram Count  : 0.0944467826759797
+        Bigram Count   : 0.1253960657244414
+        Trigram Count  : 0.12979460430790085
+        Runtime in seconds: 2031.30952334404
+        
+
+
+        
+        Diverse beam search sampling of max length 10 with beamsize 6
+        G: 2
+        diverseness: 0.8
+
+        Analysis of 100 Games:
+
+        Accuracy       : 0.83
+        Entropy        : 0.6922735592722893
+        Unigram Count  : 0.22062450841826226
+        Bigram Count   : 0.24289754640412295
+        Trigram Count  : 0.22941544772862382
+        Runtime in seconds: 21.94632315635681
+        
+
+
+        
+        Diverse beam search sampling of max length 10 with beamsize 10
+        G: 2
+        diverseness: 0.8
+
+        Analysis of 100 Games:
+
+        Accuracy       : 0.87
+        Entropy        : 0.7603209334611892
+        Unigram Count  : 0.16695313975575898
+        Bigram Count   : 0.19203886007970047
+        Trigram Count  : 0.18581049652888038
+        Runtime in seconds: 47.84844183921814
+        
+
+
+        
+        Diverse beam search sampling of max length 10 with beamsize 26
+        G: 2
+        diverseness: 0.8
+
+        Analysis of 100 Games:
+
+        Accuracy       : 0.84
+        Entropy        : 0.8978634878993035
+        Unigram Count  : 0.12409549500893428
+        Bigram Count   : 0.1630997625160419
+        Trigram Count  : 0.16531096877594895
+        Runtime in seconds: 202.2189028263092
+        
+
+
+        
+        Diverse beam search sampling of max length 10 with beamsize 5
+        G: 5
+        diverseness: 0.8
+
+        Analysis of 100 Games:
+
+        Accuracy       : 0.89
+        Entropy        : 0.6046615026891231
+        Unigram Count  : 0.2252045307999638
+        Bigram Count   : 0.24623290424072294
+        Trigram Count  : 0.2319931017363255
+        Runtime in seconds: 36.978296518325806
+        
+
+
+        
+        Diverse beam search sampling of max length 10 with beamsize 10
+        G: 5
+        diverseness: 0.8
+
+        Analysis of 100 Games:
+
+        Accuracy       : 0.9
+        Entropy        : 0.7061010132730007
+        Unigram Count  : 0.15084787303172342
+        Bigram Count   : 0.1737920574620794
+        Trigram Count  : 0.16787346106769876
+        Runtime in seconds: 104.88538455963135
+        
+
+
+        
+        Diverse beam search sampling of max length 10 with beamsize 25
+        G: 5
+        diverseness: 0.8
+
+        Analysis of 100 Games:
+
+        Accuracy       : 0.9
+        Entropy        : 0.8161243070662022
+        Unigram Count  : 0.0959269286928637
+        Bigram Count   : 0.1215644066141092
+        Trigram Count  : 0.12289019323814966
+        Runtime in seconds: 431.7197413444519
+        
+
+
+        
+        Diverse beam search sampling of max length 10 with beamsize 5
+        G: 5
+        diverseness: 0.01
+
+        Analysis of 100 Games:
+
+        Accuracy       : 0.93
+        Entropy        : 0.6327172312140464
+        Unigram Count  : 0.4949205120831018
+        Bigram Count   : 0.6236325110808619
+        Trigram Count  : 0.5866568723658706
+        Runtime in seconds: 36.51071643829346
+        
+
+
+        
+        Diverse beam search sampling of max length 10 with beamsize 10
+        G: 10
+        diverseness: 0.01
+
+        Analysis of 100 Games:
+
+        Accuracy       : 0.9
+        Entropy        : 0.8654639364778995
+        Unigram Count  : 0.3926148981367146
+        Bigram Count   : 0.5325253384856734
+        Trigram Count  : 0.515745314139382
+        Runtime in seconds: 189.95857000350952
+        
+
+
+        
+        Diverse beam search sampling of max length 10 with beamsize 25
+        G: 25
+        diverseness: 0.01
+
+        Analysis of 100 Games:
+
+        Accuracy       : 0.86
+        Entropy        : 0.9033869694173337
+        Unigram Count  : 0.3068800517424879
+        Bigram Count   : 0.5128853208650876
+        Trigram Count  : 0.5254287682828369
+        Runtime in seconds: 1711.8097653388977
+        
+
+
+        
+        Diverse beam search sampling of max length 10 with beamsize 25
+        G: 5
+        diverseness: 0.8
+
+        Analysis of 100 Games:
+
+        Accuracy       : 0.9
+        Entropy        : 0.8161243070662022
+        Unigram Count  : 0.0959269286928637
+        Bigram Count   : 0.1215644066141092
+        Trigram Count  : 0.12289019323814966
+        Runtime in seconds: 273.18227648735046
+        
+
+
+        
+        Diverse beam search sampling of max length 10 with beamsize 6
+        G: 2
+        diverseness: 0.01
+
+        Analysis of 100 Games:
+
+        Accuracy       : 0.86
+        Entropy        : 0.7507837630994618
+        Unigram Count  : 0.41290932092179394
+        Bigram Count   : 0.5101636136627302
+        Trigram Count  : 0.4922822198794192
+        Runtime in seconds: 17.73005175590515
+        
+
+
+        
+        Diverse beam search sampling of max length 10 with beamsize 10
+        G: 2
+        diverseness: 0.01
+
+        Analysis of 100 Games:
+
+        Accuracy       : 0.92
+        Entropy        : 0.8701265555806458
+        Unigram Count  : 0.3428127307978086
+        Bigram Count   : 0.45261636021358775
+        Trigram Count  : 0.44864964860488704
+        Runtime in seconds: 30.518713235855103
+        
+
+
+        
+        Diverse beam search sampling of max length 10 with beamsize 26
+        G: 2
+        diverseness: 0.01
+
+        Analysis of 100 Games:
+
+        Accuracy       : 0.85
+        Entropy        : 0.9774441430158913
+        Unigram Count  : 0.23185347130737818
+        Bigram Count   : 0.35411475092578937
+        Trigram Count  : 0.36660055442939715
+        Runtime in seconds: 121.49076795578003
+        
+
+
+        
+        Diverse beam search sampling of max length 10 with beamsize 5
+        G: 5
+        diverseness: 0.01
+
+        Analysis of 100 Games:
+
+        Accuracy       : 0.93
+        Entropy        : 0.6327172312140464
+        Unigram Count  : 0.4949205120831018
+        Bigram Count   : 0.6236325110808619
+        Trigram Count  : 0.5866568723658706
+        Runtime in seconds: 24.23013663291931
+        
+
+
+        
+        Diverse beam search sampling of max length 10 with beamsize 10
+        G: 5
+        diverseness: 0.01
+
+        Analysis of 100 Games:
+
+        Accuracy       : 0.9
+        Entropy        : 0.8918574064597488
+        Unigram Count  : 0.38520267117201423
+        Bigram Count   : 0.5148106003607245
+        Trigram Count  : 0.5006830062431509
+        Runtime in seconds: 63.069741010665894
+        
+
+
+        
+        Diverse beam search sampling of max length 10 with beamsize 25
+        G: 5
+        diverseness: 0.01
+
+        Analysis of 100 Games:
+
+        Accuracy       : 0.9
+        Entropy        : 0.9413949795253574
+        Unigram Count  : 0.26857911347626406
+        Bigram Count   : 0.4276062814981134
+        Trigram Count  : 0.4388831941644974
+        Runtime in seconds: 263.6208724975586
+        
+
+
+        

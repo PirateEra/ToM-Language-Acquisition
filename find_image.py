@@ -1,6 +1,7 @@
 from builtins import set
 from datasets import load_dataset
 from collections import Counter
+import torch
 import sys
 
 
@@ -24,8 +25,6 @@ def find_image(sentence):
     return results
 
 def find_image_multi(sentences):
-    urls = find_image.dataset["train"]["URL"]
-    texts = find_image.dataset["train"]["TEXT"]
     sentence = sentences[0]
     results = Counter(find_image(sentence))
     for sentence_index in range(1,len(sentences)):
@@ -52,5 +51,19 @@ if __name__ == "__main__":
         sentences = [sys.argv[1]]
     else:
         sentences = ['a very clean white bathroom with blue', 'a bathroom vanity mirror above a bathroom', 'bathroom sink with mirror , lighting ,', 'a bathroom sink area is lit up', 'a bathroom with a white counter top']
+    
 
+    # caption_length = 9
+    # i2w = torch.load("i2w")
+    # captions_file = torch.load("data/test_org")
+    # #for captions in captions_file:
+    # sentences = []
+    # for caption in captions_file[15]:
+    #     output = ' '.join(i2w[j] for j in caption)
+    #     output = output.split('<EOS>')[0]
+    #     output = output.lstrip('<BOS>') 
+    #     output = output.rstrip(' . ')
+    #     sentences.append(output)
+    #     print(output)
     print(find_image_multi(sentences))
+    #print(find_image_multi(sentences))

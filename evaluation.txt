@@ -1,0 +1,58 @@
+
+        Naive sampling with 5 samples of max length 10
+        Analysis of 100 Games:
+
+        Accuracy       : 0.89
+        Entropy        : 0.442725777849555
+        Unigram Count  : 0.4509890655603927
+        Bigram Count   : 0.5837694535092437
+        Trigram Count  : 0.5689532350488108
+        
+
+
+        
+        Naive sampling with 10 samples of max length 10
+        Analysis of 100 Games:
+
+        Accuracy       : 0.94
+        Entropy        : 0.4308910921216011
+        Unigram Count  : 0.31880731241049615
+        Bigram Count   : 0.4613146520342927
+        Trigram Count  : 0.4768893553021175
+        
+
+
+        
+        Naive sampling with 25 samples of max length 10
+        Analysis of 100 Games:
+
+        Accuracy       : 0.93
+        Entropy        : 0.4745965477079153
+        Unigram Count  : 0.19047280167471103
+        Bigram Count   : 0.31439887651814724
+        Trigram Count  : 0.3484153051995207
+        
+
+
+        
+        Naive sampling with 50 samples of max length 10
+        Analysis of 100 Games:
+
+        Accuracy       : 0.97
+        Entropy        : 0.4811140545457602
+        Unigram Count  : 0.1267128571532088
+        Bigram Count   : 0.2385573268465404
+        Trigram Count  : 0.2788651379144393
+        
+
+
+        
+        Naive sampling with 100 samples of max length 10
+        Analysis of 100 Games:
+
+        Accuracy       : 0.93
+        Entropy        : 0.42758465312421323
+        Unigram Count  : 0.08186949084865847
+        Bigram Count   : 0.17188933259799424
+        Trigram Count  : 0.2125059981032198
+        
